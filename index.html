@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head prefix="og: http://ogp.me/ns#">
+        <meta charset="utf-8"><!-- 文字化け防止 -->
+        <title>キメラif</title>
+        <!-- <meta name="robots" content="noindex, nofollow"> 検索避け -->
+        <meta name="twitter:card" content="summary">
+        <meta property="og:url" content="https://chimeraif.com" />
+        <meta property="og:title" content="キメラif" />
+        <meta property="og:description" content="一人一人の美少女属性を寄せ集めて世界に一人のキメラ美少女を作るサイトです。" />
+        <meta property="og:image" content="https://chimeraif.com/favicon.png" />
+        <link rel="shortcut icon" href="favicon.ico">
+        <link href="style.css" rel="stylesheet">
+        <link href="animation.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/Modaal/0.4.4/css/modaal.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <header class="header">
+            <div class="title">
+                <p class="theTitle">
+                    キメラif
+                </p>
+                <p class="subTitle">
+                    ～ 大衆の美少女要素を合成して美少女キメラを作ろう！ ～
+                </p>
+            </div>
+        </header>
+        <div class="introduction">
+            <div class="introductionTitle">
+                説明
+            </div>
+            <hr class="introductionHr">
+            <div class="introductionBody">
+                当サイトは、SUZUNONEproject所属の配信者である朱灯となみさんの企画、キメラifをWebアプリケーション化したサイトです。<br>
+                詳しいルールにつきましては、右下のiボタンをご覧ください。
+            </div>
+        </div>
+        <div class="application">
+            <button class="do" id="do">
+                キメラ生成！
+            </button>
+            <div class="elements" id="elements">
+                <!-- ここに要素が入る -->
+            </div>
+        </div>
+        <a id="shareButton" href="" rel="nofollow noopener" target="_blank">
+            <img class="xlogo" src="logo-black.png">
+        </a>
+        <a class="modaalButton" id="infoButton" href="#info">
+            <img class="infoImg" src="i.png">
+        </a>
+        <section id="info">
+            <div class="infoTitle">キメラifとは？</div>
+            <hr class="introductionHr">
+            <div class="infoBody">
+                <p>
+                    まず、たくさんの方から「自分の中にある美少女が持っていそうな要素」を集めます。
+                    ここで「美少女」とはアニメや漫画などに登場する、いわゆる萌えキャラを指します。
+                </p>
+                <p>
+                    次にこの要素をランダムに出力します。
+                    本サイトでは朱灯となみさんの配信にならって四つの要素を出力します。
+                    これらを寄せ集めた美少女像が美少女キメラです。
+                </p>
+                <p>
+                    キメラ作成後はどんな美少女か妄想するもよし、美少女にまつわるエピソードを考えるもよし、
+                    二人作成して百合妄想するもよしです。
+                    創作の種にするのもよいかもしれません。
+                </p>
+            </div>
+            <div class="infoTitle" id="usage">遊び方</div>
+            <hr class="introductionHr">
+            <div class="infoBody">
+                <p>
+                    画面を戻って、「キメラを生成！」ボタンで要素を抽出できます。
+                </p>
+                <p>
+                    美少女要素を投稿したい場合は、右下にあるメッセージマークのボタンからお願いします。
+                </p>
+            </div>
+            <div class="hblock">
+                <div class="archive">
+                    <div class="infoTitle">企画配信アーカイブ</div>
+                    <hr class="introductionHr">
+                    <div class="archiveBodies">
+                        <a class="archiveBody" href="https://www.youtube.com/watch?v=7iPVyiTLwTc" target="_blank">
+                            <img class="thumbnail" src="https://img.youtube.com/vi/7iPVyiTLwTc/mqdefault.jpg">
+                            <div class="archiveTitle">
+                                まずは視聴者のキメラ美少女を作ります【VTuber/朱灯となみ】
+                            </div>
+                        </a>
+                        <a class="archiveBody" href="https://www.youtube.com/watch?v=ESJjoW5Oves" target="_blank">
+                            <img class="thumbnail" src="https://img.youtube.com/vi/ESJjoW5Oves/mqdefault.jpg">
+                            <div class="archiveTitle">
+                                視聴者のキメラ美少女をカップリングします【VTuber/朱灯となみ】
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="about">
+                    <div class="infoTitle">このサイトについて</div>
+                    <hr class="introductionHr">
+                    <div class="infoBody">
+                        当サイトは朱灯となみさん及びSUZUNONEprojectとは一切関係がございません。
+                        朱灯となみさんやSUZUNONEprojectへの当サイトに関するお問い合わせはお控えください。
+                    </div>
+                </div>
+            </div>
+        </section>
+        <a class="modaalButton" id="mailButton" href="#mail">
+            <img class="mailImg" src="mail.png">
+        </a>
+        <section id="mail">
+            <div class="mailTitle">メッセージリンク</div>
+            <hr class="introductionHr">
+            <div class="mailBody">
+                <p>
+                    美少女要素の投稿は以下のボタンから飛べるGoogle formへお願いします。
+                </p>
+                <div class="formButtonBase">
+                    <button class="formButton" onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSdSX0bdUS1-agz0WDNBWggDxEOQUAvgen7RNBf2lMv54GHU5A/viewform')">
+                        美少女要素を投稿する！
+                    </button>
+                </div>
+                <p>
+                    バグ報告、実装してほしい機能などは以下のボタンから飛べるGoogle form、<br>
+                    またはconta<span class="invisible">bar</span>ctme[at]ch<span class="invisible">foo</span>imeraif.comへお願いします。
+                </p>
+                <div class="formButtonBase">
+                    <button class="formButton" onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSd3TjH22bhvI9_BHUKkvIIwdpOUVo2kIezdBOuQK7RG3ub84A/viewform')">
+                        メッセージを送る！
+                    </button>
+                </div>
+            </div>
+        </section>
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script><!-- axiosのインストール -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script><!-- jQueryのインストール -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Modaal/0.4.4/js/modaal.min.js"></script><!-- modaalのインストール -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.js"></script>
+    <script src="index.js"></script>
+</html>

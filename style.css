@@ -1,0 +1,237 @@
+body{
+    height: 100%;
+    margin: 0%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    font-family: "M PLUS Rounded 1c";
+    font-size: 11px;
+    text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+@media screen and (min-width: 480px) {
+    body{font-size: 14px;}
+}
+@media screen and (min-width: 768px) {
+    body{font-size: 16px;}
+}
+.header{
+    height: 16%;
+    background-color: rgb(255, 241, 248);
+}
+.title{
+    height: auto;
+    color: black;
+    text-align: center;
+}
+.theTitle{
+    font-size: x-large;
+}
+.introduction{
+    height: auto;
+    width: 60%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.introductionTitle{
+    text-align: center;
+}
+.introductionHr{
+    height: 1px;
+    width: 40%;
+    background-color: rgb(255, 215, 235);
+    border: none;
+}
+.introductionBody{
+    margin-top: 5px;
+}
+.application{
+    height: auto;
+    width: 50%;
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.do{
+    height: 40px;
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    font-family: "M PLUS Rounded 1c";
+    border: solid rgb(255, 215, 235);
+    background-color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.do:hover{
+    background-color: rgb(255, 246, 251);
+}
+#shareButton{
+    display: none;
+    position: fixed;
+    right: 180px;
+    bottom: 40px;
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    font-family: "M PLUS Rounded 1c";
+    border: solid rgb(255, 215, 235);
+    background-color: white;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: 0.5s;
+    opacity: 0;
+}
+#shareButton:hover{
+    background-color: rgb(255, 246, 251);
+}
+.xlogo{
+    height: 20px;
+}
+#infoButton{
+    display: flex;
+    position: fixed;
+    right: 120px;
+    bottom: 40px;
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    font-family: "M PLUS Rounded 1c";
+    border: solid rgb(255, 215, 235);
+    background-color: white;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: 0.5s;
+}
+#infoButton:hover{
+    background-color: rgb(255, 246, 251);
+}
+#mailButton{
+    display: flex; 
+    position: fixed;
+    right: 60px;
+    bottom: 40px;
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    font-family: "M PLUS Rounded 1c";
+    border: solid rgb(255, 215, 235);
+    background-color: white;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: 0.5s;
+}
+#mailButton:hover{
+    background-color: rgb(255, 246, 251);
+}
+
+#info{
+    display: none;
+}
+.infoTitle{
+    text-align: center;
+}
+#usage{
+    margin-top: 10px;
+}
+.hblock{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.archive{
+    width: 45%;
+    text-align: center;
+}
+/* .archiveBodies{
+    display: flex;
+    justify-content: center;
+} */
+.archiveBody{
+    display: inline-block;
+    width: 45%;
+    border-radius: 5px;
+    border: solid rgb(255, 215, 235);
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    text-overflow: ellipsis;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.archiveBody:hover{
+    background-color: rgb(255, 246, 251);
+}
+.thumbnail{
+    width: 90%;
+    border: solid pink;
+}
+.archiveTitle{
+    height: 20%;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 0.8rem;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.about{
+    width: 45%;
+}
+.infoImg{
+    height: 30px;
+}
+
+#mail{
+    display: none;
+}
+.mailTitle{
+    text-align: center;
+}
+.formButtonBase{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.formButton{
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    font-family: "M PLUS Rounded 1c";
+    border: solid rgb(255, 215, 235);
+    background-color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.formButton:hover{
+    background-color: rgb(255, 246, 251);
+}
+.mailImg{
+    height: 18px;
+}
+
+.invisible{
+    display: none;
+}
